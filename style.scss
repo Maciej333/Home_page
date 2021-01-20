@@ -77,6 +77,13 @@ body {
         td .fas {
             color: $colororange;
         }
+
+        #page-creator {
+            width: 20vw;
+            height: auto;
+            right: 5vw;
+            top: 20px;
+        }
     }
 
     #projects-gallery{
@@ -84,6 +91,16 @@ body {
             font-size: 3rem;
             background-color: $colorblack;
             z-index: 2;
+        }
+
+        .dot {
+            z-index: 2;
+        }
+
+        #vertical-line {
+            width: 2px;
+            background-color: $colorwhite;
+            z-index: 1;
         }
 
         article{
