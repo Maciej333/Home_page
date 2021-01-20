@@ -37,4 +37,30 @@ body {
             color: $colororange;
         }
     }
+
+    #projects-gallery{
+        .project-name{
+            font-size: 3rem;
+            background-color: $colorblack;
+            z-index: 2;
+        }
+
+        article{
+            z-index: 10;
+
+            div {
+                background-color: $colorblack;
+                z-index: 2;    
+                
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+            
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
