@@ -2,9 +2,50 @@ $colorwhite: #fff;
 $colorblack: #000;
 $colororange: #ff8906;
 
+.black-menu-icon{
+    background-color: $colorwhite;
+    color: $colorblack;
+}
+
+.white-menu-icon{
+    background-color: $colorblack;
+    color: $colorwhite;
+}
+
 body {
     background-color: $colorblack;
     color: $colorwhite;
+
+    #burger-menu-icon{
+        position: fixed;
+        transform: scale(2);
+        right: 25px;
+        top: 25px;
+        z-index: 1060;
+        &:hover {
+            color: $colororange;
+            transform: scale(2.2);
+        }
+    }
+
+    #burger-menu {
+        position: fixed;
+        background-color: $colorblack;
+        color: $colorwhite;
+        height: 100vh;
+        width: 180px;
+        right: 0;
+        top: 0;
+        z-index: 1070;
+        border-left: 1px solid $colororange;
+
+        #x-burger-menu {
+            &:hover {
+                color: $colororange;
+                transform: scale(1.1);
+            }
+        }
+    }
 
     a {
         text-decoration: none;
@@ -59,7 +100,7 @@ body {
             }
             
             img {
-                width: 100%;
+                width: 98%;
             }
         }
     }
