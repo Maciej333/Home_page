@@ -1,3 +1,3 @@
 # Home_page
 
-Home for showing created projects.
+Home page for showing created projects.
