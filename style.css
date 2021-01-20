@@ -46,5 +46,18 @@ body #projects-gallery article div p {
 body #projects-gallery article img {
   width: 100%;
 }
+body #sitting-man {
+  width: 100px;
+  top: 50px;
+  left: 100px;
+  overflow: hidden;
+}
+body footer {
+  background-color: #ff8906;
+  color: #000;
+  width: 90vw;
+  border-radius: 15px 15px 0 0;
+  height: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */

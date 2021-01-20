@@ -63,4 +63,19 @@ body {
             }
         }
     }
+
+    #sitting-man{
+        width: 100px;
+        top: 50px;
+        left: 100px;
+        overflow: hidden;
+    }
+
+    footer {
+        background-color: $colororange;
+        color: $colorblack;
+        width: 90vw;
+        border-radius: 15px 15px 0 0;
+        height: 50px;
+    }
 }
