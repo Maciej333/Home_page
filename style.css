@@ -1,6 +1,42 @@
+.black-menu-icon {
+  background-color: #fff;
+  color: #000;
+}
+
+.white-menu-icon {
+  background-color: #000;
+  color: #fff;
+}
+
 body {
   background-color: #000;
   color: #fff;
+}
+body #burger-menu-icon {
+  position: fixed;
+  transform: scale(2);
+  right: 25px;
+  top: 25px;
+  z-index: 1060;
+}
+body #burger-menu-icon:hover {
+  color: #ff8906;
+  transform: scale(2.2);
+}
+body #burger-menu {
+  position: fixed;
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  width: 180px;
+  right: 0;
+  top: 0;
+  z-index: 1070;
+  border-left: 1px solid #ff8906;
+}
+body #burger-menu #x-burger-menu:hover {
+  color: #ff8906;
+  transform: scale(1.1);
 }
 body a {
   text-decoration: none;
@@ -44,7 +80,7 @@ body #projects-gallery article div p {
   margin: 0;
 }
 body #projects-gallery article img {
-  width: 100%;
+  width: 98%;
 }
 body #sitting-man {
   width: 100px;

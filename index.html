@@ -23,15 +23,28 @@
     <!-- custom -->
     <link rel="stylesheet" href="style.css">
     <script src="main_script.js" defer></script>
+    <script src="menu.js" defer></script>
 </head>
 
 <body>
-    <nav class="nav flex-sm-row justify-content-end pe-5 fs-2">
-        <a class="nav-link active" aria-current="page" href="#welcome">Main</a>
+    <nav id="large-menu" class="nav flex-sm-row justify-content-end pe-5 fs-2">
+        <a class="nav-link" href="#welcome">Main</a>
         <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#projects-gallery">Projects</a>
         <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
     </nav>
+
+    <i id="burger-menu-icon" class="fa fa-bars white-menu-icon"></i>
+    <div id="burger-menu" hidden>
+        <nav class="nav d-flex flex-column text-center fs-2">
+            <p class="pb-3 pt-3"></p>
+            <i id="x-burger-menu" class="fas fa-times ms-auto px-4"></i>
+            <a class="nav-link" href="#welcome">Main</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#projects-gallery">Projects</a>
+            <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+        </nav>
+    </div>
 
     <section id="welcome" class="d-flex justify-content-center align-items-center text-center display-3">
         Home Page <br>
@@ -227,7 +240,7 @@
     </div>
 
     <footer class="p-3 mx-auto">
-        <p class="text-center">I hope U</p>
+        <p class="text-center">Have a nice day!</p>
     </footer>
 
     <!-- Bootstrap 5 JS -->
