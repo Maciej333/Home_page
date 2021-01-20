@@ -1,0 +1,23 @@
+$colorwhite: #fff;
+$colorblack: #000;
+$colororange: #ff8906;
+
+body {
+    background-color: $colorblack;
+    color: $colorwhite;
+
+
+    a {
+        text-decoration: none;
+        color: $colorwhite;
+
+        &:hover{
+            color: $colororange;
+            transform: scale(1.1);
+        }
+    }
+
+    #welcome {
+        min-height: 80vh;
+    }
+}
