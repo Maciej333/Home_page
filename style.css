@@ -1,3 +1,17 @@
-
+body {
+  background-color: #000;
+  color: #fff;
+}
+body a {
+  text-decoration: none;
+  color: #fff;
+}
+body a:hover {
+  color: #ff8906;
+  transform: scale(1.1);
+}
+body #welcome {
+  min-height: 80vh;
+}
 
 /*# sourceMappingURL=style.css.map */
