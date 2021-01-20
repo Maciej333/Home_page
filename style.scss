@@ -6,7 +6,6 @@ body {
     background-color: $colorblack;
     color: $colorwhite;
 
-
     a {
         text-decoration: none;
         color: $colorwhite;
@@ -19,5 +18,23 @@ body {
 
     #welcome {
         min-height: 80vh;
+    }
+
+    #about {
+        background-color: $colorwhite;
+        color: $colorblack;
+
+        h1, h2 {
+            border-bottom: 3px solid $colorblack;
+        }
+
+        #avatar {
+            width: 15vw;
+            min-width: 100px;
+        }
+
+        td .fas {
+            color: $colororange;
+        }
     }
 }
