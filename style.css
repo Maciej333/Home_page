@@ -27,5 +27,24 @@ body #about #avatar {
 body #about td .fas {
   color: #ff8906;
 }
+body #projects-gallery .project-name {
+  font-size: 3rem;
+  background-color: #000;
+  z-index: 2;
+}
+body #projects-gallery article {
+  z-index: 10;
+}
+body #projects-gallery article div {
+  background-color: #000;
+  z-index: 2;
+}
+body #projects-gallery article div p {
+  padding: 0;
+  margin: 0;
+}
+body #projects-gallery article img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
